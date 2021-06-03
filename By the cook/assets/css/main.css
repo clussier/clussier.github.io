@@ -2729,13 +2729,13 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		background-image: url("images/overlay.png"), url("../../images/coal.jpg");
+		background-image: url("images/overlay.png"), url("../../images/chalk.png");
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 		background-size: 100%;
 		background-position: center;
 		background-blend-mode: darken;
-		
+		background-blend-mode: soft-light;
 	
 		margin-left: 35%;
 		max-width: 54em;
@@ -2750,10 +2750,11 @@ input, select, textarea {
 	}
 		/* Welcome Text */
 		#main .centered {
+		  display: none;
 		  position: absolute;
 		  top: 50%;
-		  left: 63%;
-		  transform: translate(-50%, -63%);
+		  right: 50%;
+		  transform: translate(50%, -50%);
 		  text-align: center;
 		
 		}
@@ -2762,6 +2763,7 @@ input, select, textarea {
 			
 			color: #ffffff;
 			font-size: 100%;
+			line-height: 0em;
 		}
 		#main .welcomeText h1{
 			line-height: 0;
@@ -2778,12 +2780,19 @@ input, select, textarea {
 			padding-right: 20%;
 			padding-top: 5%;
 			padding-bottom: 5%;
-			margin-bottom: 10em;
+			/* margin-top: 10em; */
+			margin-bottom: 8em;
 			/* background-color: #0f0f0f; */
 			padding-left: auto;
 
 		}
-
+			#main hr{
+				width: 10%;
+				margin: 0 auto;
+				margin-bottom: 10em;
+				border-color: #971B1F;
+				
+			}
 
 			#main > section h3{
 				color:#971B1F;
@@ -2791,7 +2800,7 @@ input, select, textarea {
 			}
 			#main > section h4{
 				color:#ffffff;
-				font-size: 200%;
+				font-size: 300%;
 			}
 			#main > section h4 span{
 				color:#971B1F;
@@ -2805,7 +2814,7 @@ input, select, textarea {
 			}
 			.fillBackground{
 
-				background-color: #0f0f0f;
+				background-color: #0c0c0c;
 				
 			}
 
