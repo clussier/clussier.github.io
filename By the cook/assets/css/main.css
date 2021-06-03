@@ -1,6 +1,14 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic");
+@font-face {
+    font-family: 'a_asian_ninjaregular';
+    src:   url('By the cook\assets\webfonts\aasianninja-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 
+}
+	
+	
 /*
 	Strata by HTML5 UP
 	html5up.net | @ajlkn
@@ -103,7 +111,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #fbfbfb;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: 'Oregano';
 		font-size: 16pt;
 		font-weight: 400;
 		line-height: 1.75em;
@@ -115,7 +123,7 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #ffffff;
+		color: #f6f6f6;
 		font-weight: bolder;
 		font-size: 16pt;
 		text-decoration: none;
@@ -2161,6 +2169,7 @@ input, select, textarea {
 			}
 		.image.welcome {
 			position: relative;
+		
 			display: flex;
 			justify-content: center;
 			align-items: center;
