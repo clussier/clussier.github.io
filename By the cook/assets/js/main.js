@@ -95,7 +95,7 @@
 
 	// Main Sections: Two.
 
-		// Lightbox gallery.
+		// Lightbox Images.
 			$window.on('load', function() {
 
 				$('#two').poptrox({
@@ -113,5 +113,9 @@
 				});
 
 			});
-
+	// Main Sections: Welcome Carosel
+		$('.carousel').carousel({
+			interval: 6000,
+			pause: "false"
+		});
 })(jQuery);
