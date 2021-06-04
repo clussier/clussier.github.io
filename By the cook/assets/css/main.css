@@ -2287,6 +2287,7 @@ input, select, textarea {
 /* Actions */
 
 	ul.actions {
+		
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -2295,6 +2296,7 @@ input, select, textarea {
 		list-style: none;
 		margin-left: -1em;
 		padding-left: 0;
+		text-align: center;
 	}
 
 		ul.actions li {
@@ -2490,8 +2492,9 @@ input, select, textarea {
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		background-color: transparent;
 		border-radius: 0.35em;
-		border: solid 3px #a3a3a3;
-		color: #787878 !important;
+		background-color: #971B1F;
+		border: solid 3px #220000;
+		color: #ffffff !important;
 		cursor: pointer;
 		display: inline-block;
 		font-weight: 400;
@@ -2502,6 +2505,7 @@ input, select, textarea {
 		padding: 0 1.5em;
 		text-align: center;
 		text-decoration: none;
+		font-weight: bolder;
 		white-space: nowrap;
 	}
 
@@ -2729,13 +2733,13 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		background-image: url("images/overlay.png"), url("../../images/chalk.png");
-		background-repeat: no-repeat;
+		background-image: url("images/overlay.png"), url("../../images/coal.jpg");
+		background-repeat: repeat;
 		background-attachment: fixed;
-		background-size: 100%;
+		
 		background-position: center;
 		background-blend-mode: darken;
-		background-blend-mode: soft-light;
+		
 	
 		margin-left: 35%;
 		max-width: 54em;
@@ -2763,7 +2767,7 @@ input, select, textarea {
 			
 			color: #ffffff;
 			font-size: 100%;
-			line-height: 0em;
+			
 		}
 		#main .welcomeText h1{
 			line-height: 0;
@@ -2781,7 +2785,7 @@ input, select, textarea {
 			padding-top: 5%;
 			padding-bottom: 5%;
 			/* margin-top: 10em; */
-			margin-bottom: 8em;
+			margin-bottom: 10em;
 			/* background-color: #0f0f0f; */
 			padding-left: auto;
 
@@ -2793,10 +2797,18 @@ input, select, textarea {
 				border-color: #971B1F;
 				
 			}
-
+			#main > section p{
+				color:rgba(255, 255, 255, 0.4);
+				font-size: 200%;
+				margin-bottom: 3em;
+			}
+			#main > section h2{
+				font-size: 300%;
+			}
 			#main > section h3{
 				color:#971B1F;
 				font-size: 200%;
+				line-height: 0em;
 			}
 			#main > section h4{
 				color:#ffffff;
@@ -2812,6 +2824,10 @@ input, select, textarea {
 				margin-top: 0;
 				padding-top: 0;
 			}
+			#main > section:last-child {
+				margin-bottom: 0em;
+				padding-bottom: 0em;
+				}
 			.fillBackground{
 
 				background-color: #0c0c0c;
@@ -3394,5 +3410,5 @@ input, select, textarea {
 				margin-left: 0;
 				padding-left: 0;
 			}
-
+			
 	}
