@@ -2296,6 +2296,8 @@ input, select, textarea {
 		list-style: none;
 		margin-left: -1em;
 		padding-left: 0;
+		margin-top: -3em;
+	
 		text-align: center;
 	}
 
@@ -2733,7 +2735,7 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		background-image: url("images/overlay.png"), url("../../images/coal.jpg");
+		background-image: url("images/overlay.png"), url("../../images/binding_superdark\ \(2\).png");
 		background-repeat: repeat;
 		background-attachment: fixed;
 		
@@ -2801,6 +2803,7 @@ input, select, textarea {
 				color:rgba(255, 255, 255, 0.4);
 				font-size: 200%;
 				margin-bottom: 3em;
+				line-height: 1em;
 			}
 			#main > section h2{
 				font-size: 300%;
