@@ -92,9 +92,10 @@ input, select, textarea {
 	}
 
 	body {
-	
 		background: #000000ec;
-		background-repeat: no-repeat;
+		background-image: url("grill2.png"); 
+		min-height: 100%;
+		background-repeat: repeat;
 		background-attachment: fixed;
 		background-position: right ;
 	}
@@ -2746,6 +2747,7 @@ input, select, textarea {
 /* Main */
 
 	#main {
+
 		/* background-image: url("images/overlay.png"), url("../../images/C:\Users\cluss\OneDrive\Desktop\Programing Projects\PRO Farming Script 1.0\clussier.github.io\By the cook\images\binding_superdark (2).png"); */
 		background-repeat: repeat;
 		background-attachment: fixed;
